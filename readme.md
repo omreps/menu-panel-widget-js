@@ -6,7 +6,7 @@ demo: [http://vh152449.eurodir.ru/web-widget-demo](http://vh152449.eurodir.ru/we
 
 ![Screenshot](Screenshot.jpg)
 
-##Instruction##
+# Instruction
 
 On the localhost:
 
@@ -21,7 +21,7 @@ On the web:
 - use any your website or host the demo site (dist/index.html & dist/site-sample-assets)
 - insert **widget code** in the demo
 
-##Widget code##
+## 0222Widget code
 
 Insert this <script> code in the end of the <body> section on your web site:
 
