@@ -1,6 +1,8 @@
+## Menu Widget with Links
+
 ![Screenshot](Screenshot.jpg)
 
-## Menu Widget with Links
+Online demo: [http://vh152449.eurodir.ru/web-widget-demo](http://vh152449.eurodir.ru/web-widget-demo)
 
 Instruction:
 
