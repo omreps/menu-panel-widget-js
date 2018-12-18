@@ -20,11 +20,11 @@ On the web:
 
 Widget code:
 
-Insert this <script> code befor </body> tag on your web site:
+Insert this <script> code in the end of the <body> section on your web site:
 
 ![ScreenshotScript](ScreenshotScript.jpg)
 
-you can use settings param, where
+you can use settings params, where
 
 - **center** can be "true" or "false", true - will center left and right urls bars
 - **theme** can be "dark" and "light", for dark and light appearance
