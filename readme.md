@@ -33,6 +33,6 @@ you can use settings params, where
 - **theme** can be "dark" and "light", for dark and light appearance
 - **left** and rigth links - put the link names and urls, also make dropdowns with links
 
-## JS-Widget script & its demo page Boilerplate
+## Widget js-script & demo page boilerplate
 
 Widget boilerplate uses Gulp, Webpack, Browserify, PostCSS, Stylus, jQuery, ES6 with babel polyfill
