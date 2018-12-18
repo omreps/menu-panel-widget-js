@@ -17,16 +17,7 @@ On the web:
 
 Widget code:
 
-<script
-
-src="(nothing for local or your-web-host-url)/assets/scripts/widget.min.js"
-center=	"true"
-theme = "dark"
-left=	'[["linkL1|http://l1.html"],["linkL1|http://l1.html"],["Dropdown1", "linkL2|http://l2.html","linkL3|http://l3.html"], 						["linkL4|http://l1.html"], ["LinkSet", "linkL2|http://l2.html","linkL3|http://l3.html"]]'
-right=	'[["linkR1|http://r1.html"],["linkR2|http://r2.html"], ["Dropdown2", "linkL2|http://l2.html","linkL3|http://l3.html"]]'
-
-></script>
-
+![ScreenshotScript](ScreenshotScript.jpg)
 
 where
 
