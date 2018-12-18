@@ -1,6 +1,6 @@
 ## Menu Widget with Links
 
-Online demo: [http://vh152449.eurodir.ru/web-widget-demo](http://vh152449.eurodir.ru/web-widget-demo)
+Web demo: [http://vh152449.eurodir.ru/web-widget-demo](http://vh152449.eurodir.ru/web-widget-demo)
 
 ![Screenshot](Screenshot.jpg)
 
@@ -27,3 +27,7 @@ where
 - **center** can be "true" or "false", true - will center left and right urls bars
 - **theme** can be "dark" and "light", for dark and light appearance
 - **left** and rigth links - put the link names and urls, also make dropdowns with links
+
+## Widget boilerplate
+
+Widget boilerplate uses Gulp, Webpack, Browserify, PostCSS, Stylus, jQuery, ES6 with babel polyfill
