@@ -1,7 +1,8 @@
 ## Menu Widget JS-script with Links
 
 Menu Widget JS-script | Сan be added on any website with jQuery | Separate settings for links, centering and theme
-Web demo: [http://vh152449.eurodir.ru/web-widget-demo](http://vh152449.eurodir.ru/web-widget-demo)
+
+demo: [http://vh152449.eurodir.ru/web-widget-demo](http://vh152449.eurodir.ru/web-widget-demo)
 
 ![Screenshot](Screenshot.jpg)
 
