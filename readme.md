@@ -1,24 +1,31 @@
-![Screenshot](dist/menu-widget.jpg)
+![Screenshot](Screenshot.jpg)
 
-## Пример JS-widget'а меню на сайт
+## Menu Widget with Links
 
-08.12 
-- прочитала про динамическое создание секции <script> на сайте, меню nav на css, передачу параметров в виджет в теге <script>
-- создала demo-страницу
-- создала шаблон webpack
+Instruction:
 
-09.12 
-- настроила gulp task 'site-sample' для копирования и watching'a статического демо-сайта в папку /dist
-- прописала новый gult task в default-ном таске для копирования статического демо-сайта 
-- настроила browserify открывать статичекий caйт на демо-хосте
-- JS и MIN.CSS копируются в папку /dist/assets/scripts и /dist/assets/styles
+On the localhost:
 
-10.12
-- настроила вывод assets сайта и меню в 2 разных папки: одна assets для стилей и скрипта widget'a, вторая site-sample-assets для стилей демо сайта - и webpack настроен
-- написала демо-код виджета - вставить текст вверху, загрузить стили, вставила в демо-сайт - работает
-- проверила в Chrome, FF, Yandex, на Chrome Android, встроенном браузере на Android и IE9 - работает
+- npm start 
+the open browserify generated local url
 
-11-12.12
-- сверстала и вставила реальное меню виджета с настройками в теге <script>
-- проверила во всех браузерах, включая IE9
-- сделала и проверила во всех браузерах мобильный вариант
+On the web:
+
+- host the dist/assets folder on the web
+- use any your website or host the demo site (dist/index.html & dist/site-sample-assets)
+- insert widget code in the demo
+
+Both:
+
+<script src="(nothing for local or your-web-host-url)/assets/scripts/widget.min.js"
+		center=	"true"
+		theme = "dark"
+		left=	'[["linkL1|http://l1.html"],["linkL1|http://l1.html"],["Dropdown1", "linkL2|http://l2.html","linkL3|http://l3.html"], 						["linkL4|http://l1.html"], ["LinkSet", "linkL2|http://l2.html","linkL3|http://l3.html"]]'
+		right=	'[["linkR1|http://r1.html"],["linkR2|http://r2.html"], ["Dropdown2", "linkL2|http://l2.html","linkL3|http://l3.html"]]'>
+</script>
+
+where
+
+- center can be "true" or "false", true - will center left and right urls bars
+- theme can be "dark" and "light", for dark and light appearance
+- left and rigth links - put the link names and urls, also make dropdowns with links
