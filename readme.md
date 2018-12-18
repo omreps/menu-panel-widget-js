@@ -9,7 +9,8 @@ Instruction:
 On the localhost:
 
 - **npm start** 
-the open browserify generated local url
+
+then open browserify generated local url
 
 On the web:
 
