@@ -8,6 +8,7 @@ Instruction:
 
 On the localhost:
 
+- **npm install** 
 - **npm start** 
 
 then open browserify generated local url
